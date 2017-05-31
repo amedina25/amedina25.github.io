@@ -6,18 +6,19 @@
 	<style type="text/css">
 
 		/* Layout */
-		body {
-			min-width: 630px;
-		}
+	body {
+		min-width: 630px;
+	}
 
-		#container {
-			padding-left: 200px;
-			padding-right: 190px;
+		#container 
+	{
+		padding-left: 200px;
+		padding-right: 190px;
 		}
 		
 		#container .column {
-			position: relative;
-			float: left;
+	position: relative;
+	float: left;
 		}
 		
 		#center {
@@ -122,34 +123,34 @@
 
 <body>
 
-	<header id="header"><p>Index</p></header>
+<header id="header"><p>Index</p></header>
 
-	<div id="container">
+<div id="container">
 
-		<main id="center" class="column">
-			<article>
+<main id="center" class="column">
+	<article>
 			
-				<h1>Computer Science Principles</h1>
-				<img src="home.jpg" height="300" width="980">
-				<p> <a href="home.html"> HOME </a> </p>
-				<p> <a href="home.html"> IED </a> </p>
-				<p> <a href="home.html"> POE </a> </p>
-				<p> <a href="home.html"> CSP </a> </p>
-				<p> <a href="home.html"> CIM </a> </p>
-				<p> <a href="portfolio.html">PORTFOLIO</a> </p>
-				<p> <a href="portfolio.html">UNIT 1.1 </a> </p>
-				<p> <a href="portfolio.html">UNIT 1.2 </a> </p>
-				<p> <a href="portfolio.html">UNIT 1.3 </a> </p>
-				<p> <a href="portfolio.html">SCRATCH</a> </p>
-				<p> <a href="portfolio.html">APP INVENTOR</a> </p>
-				<p> <a href="portfolio.html">PYTHON GAME</a> </p>
+	<h1>Computer Science Principles</h1>
+	<img src="home.jpg" height="300" width="980">
+	<p> <a href="home.html"> HOME </a> </p>
+	<p> <a href="home.html"> IED </a> </p>
+	<p> <a href="home.html"> POE </a> </p>
+	<p> <a href="home.html"> CSP </a> </p>
+	<p> <a href="home.html"> CIM </a> </p>
+	<p> <a href="portfolio.html">PORTFOLIO</a> </p>
+	<p> <a href="portfolio.html">UNIT 1.1 </a> </p>
+	<p> <a href="portfolio.html">UNIT 1.2 </a> </p>
+	<p> <a href="portfolio.html">UNIT 1.3 </a> </p>
+	<p> <a href="portfolio.html">SCRATCH</a> </p>
+	<p> <a href="portfolio.html">APP INVENTOR</a> </p>
+	<p> <a href="portfolio.html">PYTHON GAME</a> </p>
 				
 				
 				
 				
 				
 				
-			</article>								
+	</article>								
 		</main>
 
 		<nav id="left" class="column">
