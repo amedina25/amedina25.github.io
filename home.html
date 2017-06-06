@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>HOME</title>
+	<style type="text/css">
+
+		/* Layout */
+		body {
+			min-width: 630px;
+		}
+
+		#container {
+			padding-left: 200px;
+			padding-right: 190px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 10px 20px;
+			width: 100%;
+		}
+		
+		#left {
+			width: 180px;
+			padding: 0 10px;
+			right: 240px;
+			margin-left: -100%;
+		}
+		
+		#right {
+			width: 130px;
+			padding: 0 10px;
+			margin-right: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+		
+		/* IE hack */
+		* html #left {
+			left: 150px;
+		}
+
+		/* Make the columns the same height as each other */
+		#container {
+			overflow: hidden;
+		}
+
+		#container .column {
+			padding-bottom: 1001em;
+			margin-bottom: -1000em;
+		}
+
+		/* Fix for the footer */
+		* html body {
+			overflow: hidden;
+		}
+		
+		* html #footer-wrapper {
+			float: left;
+			position: relative;
+			width: 100%;
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			background: #fff;
+		}
+
+		/* Aesthetics */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: seashell;
+			text-decoration: none;
+		}
+
+		#header, #footer {
+			font-size: large;
+			padding: 0.3em;
+			background: #FFE4E1;
+		}
+
+		#left {
+			background: #FFD5C0;
+		}
+		
+		#right {
+			background: #FFD5C0;
+		}
+
+		#center {
+			background: #FFF5EE;
+		}
+
+		#container .column {
+			padding-top: 1em;
+		}
+		
+	</style>
+	
+</head>
+
+<body>
+
+	<header id="header"><p>My Website</p></header>
+
+	<div id="container">
+
+		<main id="center" class="column">
+			<article>
+			
+				<h1>Computer Science Principles</h1>
+				<style>
+				img {
+				display: block;
+				margin: 0 auto;
+				}
+				</style>
+				<img src="cs.jpg" alt="CSP" style="width:50%">
+				<p>PLTW Computer Science empowers students to become creators, instead of merely consumers, of the technology all around them. The program engages students in collaborative projects that help them develop in-demand computer science knowledge as well as transportable skills like creative thinking and communication."</p>
+	
+				<h1>Computer Integated Manufacturing</h1>
+				<style>
+				img {
+				display: block;
+				margin: 0 auto;
+				}
+				</style>
+				<img src="cim.gif" alt="CIM" style="width:50%">
+				<p> Manufactured items are part of everyday life, yet most students have not been introduced to the high-tech, innovative nature of modern manufacturing. This course illuminates the opportunities related to understanding manufacturing. At the same time, it teaches students about manufacturing processes, product design, robotics, and automation. </p>
+
+				<h1>Intoduction to Engineering Design</h1>
+				<style>
+				img {
+				display: block;
+				margin: 0 auto;
+				}
+				</style>
+				<img src="ied.png" alt="IED" style="width:50%">
+				<p> Students dig deep into the engineering design process, applying math, science, and engineering standards to hands-on projects. They work both individually and in teams to design solutions to a variety of problems using 3-D modeling software, and use an engineering notebook to document their work. </p>
+			
+				<h1>Principles of Engineering</h1>
+				<style>
+				img {
+				display: block;
+				margin: 0 auto;
+				}
+				</style>
+				<img src="poe.png" alt="POE" style="width:50%">
+				<p> Through problems that engage and challenge, students explore a broad range of engineering topics, including mechanisms, the strength of structures and materials, and automation. Students develop skills in problem solving, research, and design while learning strategies for design process documentation, collaboration, and presentation. </p>
+			
+			</article>								
+		</main>
+
+		<nav id="left" class="column">
+		    
+		    <p> <a href="home.html"> Home</a> </p>
+		    <p> <a href="index.html">Index</a>  </p>
+			<p> <a href="portfolio.html">Portfolio</a> </p>
+			
+		</nav>
+
+		<div id="right" class="column">
+			<h3>About Me</h3>
+			<p>Ashly Medina PLTW Student Lynwood High School </p>
+		</div>
+
+	</div>
+
+	<div id="footer-wrapper">
+		<footer id="footer"><p></p></footer>
+	</div>
+
+</body>
+
+</html>
